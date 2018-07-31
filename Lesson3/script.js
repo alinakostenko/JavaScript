@@ -1,17 +1,36 @@
 "use strict";
 
-var min = +prompt('Начало отсчета');
-var max = +prompt('Конец отсчета');
+var minNum,
+    maxNum;
 
-isSimple:
-    for (var i = min; i <= max; i++) {
-        if (min < 2) {
-            alert('Ошибка! Введите число, больше 1');
-        break;
+do { minNum = +prompt('Введите только целое число, больше 1');
+} while (minNum < 2 || isInt(minNum));
+
+do { maxNum = +prompt('Введите только целое число, больше первого');
+} while (minNum > maxNum || isInt(maxNum));
+
+function isInt(n) {
+    return n % 1 !== 0;
+}
+
+function isPrime(num) {
+
+    for(var i = 2; i < num; i++) {
+
+        if (num % i === 0) {
+            return false;
         }
-            for (var j = 2; j < i; j++) {
-            if (i % j === 0) continue isSimple;
-            }
-
-        console.log( i );
     }
+    return num !== 1;
+}
+
+function showPrimes(min, max){
+
+    for (var i = min; i < max; i++) {
+
+        if (isPrime(i)){
+            console.log(i);
+        }
+    }
+}
+showPrimes(minNum, maxNum);

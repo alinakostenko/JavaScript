@@ -1,0 +1,413 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'uglify-js' ]
+2 info using npm@3.5.2
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData uglify-js
+8 silly fetchNamedPackageData uglify-js
+9 silly mapToRegistry name uglify-js
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/uglify-js
+13 verbose request uri https://registry.npmjs.org/uglify-js
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 7:30:26
+16 verbose request id a084d0061c417e00
+17 verbose etag W/"cf742ef2afd2e7fff99213417338ff00"
+18 verbose lastModified Sat, 02 Jun 2018 08:11:46 GMT
+19 http request GET https://registry.npmjs.org/uglify-js
+20 http 200 https://registry.npmjs.org/uglify-js
+21 verbose headers { date: 'Sat, 01 Sep 2018 04:30:27 GMT',
+21 verbose headers   'content-type': 'application/octet-stream',
+21 verbose headers   'content-length': '336054',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie': [ '__cfduid=d0abd585dff3cae19f69e3c8ded6f1d681535776227; expires=Sun, 01-Sep-19 04:30:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   'cf-ray': '4535006c5c3c9071-DME',
+21 verbose headers   etag: '"70eff1f71303a98fd511545c7499b6de"',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'last-modified': 'Fri, 31 Aug 2018 16:00:19 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   'x-amz-meta-rev': '611-3e59ac3e18ab8e18d2fe7f857eb31588',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 200,
+22 silly get   { date: 'Sat, 01 Sep 2018 04:30:27 GMT',
+22 silly get     'content-type': 'application/octet-stream',
+22 silly get     'content-length': '336054',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie': [ '__cfduid=d0abd585dff3cae19f69e3c8ded6f1d681535776227; expires=Sun, 01-Sep-19 04:30:27 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     'cf-ray': '4535006c5c3c9071-DME',
+22 silly get     etag: '"70eff1f71303a98fd511545c7499b6de"',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'last-modified': 'Fri, 31 Aug 2018 16:00:19 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     'x-amz-meta-rev': '611-3e59ac3e18ab8e18d2fe7f857eb31588',
+22 silly get     server: 'cloudflare' } ]
+23 verbose get saving uglify-js to /home/alina/.npm/registry.npmjs.org/uglify-js/.cache.json
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule uglify-js@3.4.9 checking installable status
+37 silly cache add args [ 'uglify-js', null ]
+38 verbose cache add spec uglify-js
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'uglify-js',
+39 silly cache add   scope: null,
+39 silly cache add   name: 'uglify-js',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed uglify-js@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for uglify-js
+42 info addNameTag [ 'uglify-js', 'latest' ]
+43 silly mapToRegistry name uglify-js
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/uglify-js
+47 verbose addNameTag registry:https://registry.npmjs.org/uglify-js not in flight; fetching
+48 verbose get https://registry.npmjs.org/uglify-js not expired, no request
+49 silly addNameTag next cb for uglify-js with tag latest
+50 silly addNamed uglify-js@3.4.9
+51 verbose addNamed "3.4.9" is a plain semver version for uglify-js
+52 silly mapToRegistry name uglify-js
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/uglify-js
+56 verbose addRemoteTarball https://registry.npmjs.org/uglify-js/-/uglify-js-3.4.9.tgz not in flight; adding
+57 verbose addRemoteTarball [ 'https://registry.npmjs.org/uglify-js/-/uglify-js-3.4.9.tgz',
+57 verbose addRemoteTarball   'af02f180c1207d76432e473ed24a28f4a782bae3' ]
+58 info retry fetch attempt 1 at 7:30:30
+59 info attempt registry request try #1 at 7:30:30
+60 http fetch GET https://registry.npmjs.org/uglify-js/-/uglify-js-3.4.9.tgz
+61 http fetch 200 https://registry.npmjs.org/uglify-js/-/uglify-js-3.4.9.tgz
+62 silly fetchAndShaCheck shasum af02f180c1207d76432e473ed24a28f4a782bae3
+63 verbose addTmpTarball /tmp/npm-27397-e5a49996/registry.npmjs.org/uglify-js/-/uglify-js-3.4.9.tgz not in flight; adding
+64 verbose addTmpTarball already have metadata; skipping unpack for uglify-js@3.4.9
+65 silly cache afterAdd uglify-js@3.4.9
+66 verbose afterAdd /home/alina/.npm/uglify-js/3.4.9/package/package.json not in flight; writing
+67 verbose afterAdd /home/alina/.npm/uglify-js/3.4.9/package/package.json written
+68 silly fetchNamedPackageData commander
+69 silly mapToRegistry name commander
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/commander
+73 silly fetchNamedPackageData source-map
+74 silly mapToRegistry name source-map
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/source-map
+78 verbose request uri https://registry.npmjs.org/source-map
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 7:30:31
+81 verbose etag W/"fdc4842f93dc35931f06fd2a9ed23684"
+82 verbose lastModified Fri, 03 Aug 2018 00:37:24 GMT
+83 http request GET https://registry.npmjs.org/source-map
+84 verbose request uri https://registry.npmjs.org/commander
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 7:30:31
+87 verbose etag W/"e392e036cad8076658d57d9844c7b4e5"
+88 verbose lastModified Sat, 26 May 2018 20:21:17 GMT
+89 http request GET https://registry.npmjs.org/commander
+90 http 304 https://registry.npmjs.org/source-map
+91 verbose headers { date: 'Sat, 01 Sep 2018 04:30:32 GMT',
+91 verbose headers   connection: 'keep-alive',
+91 verbose headers   'set-cookie': [ '__cfduid=d4f9ea60a87f16c2ab160918b6a038c7f1535776232; expires=Sun, 01-Sep-19 04:30:32 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+91 verbose headers   'cf-cache-status': 'HIT',
+91 verbose headers   'cache-control': 'max-age=300',
+91 verbose headers   'cf-ray': '4535008b0b8e9071-DME',
+91 verbose headers   etag: '"fdc4842f93dc35931f06fd2a9ed23684"',
+91 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+91 verbose headers   'last-modified': 'Fri, 03 Aug 2018 00:37:24 GMT',
+91 verbose headers   vary: 'accept-encoding, accept',
+91 verbose headers   server: 'cloudflare' }
+92 silly get cb [ 304,
+92 silly get   { date: 'Sat, 01 Sep 2018 04:30:32 GMT',
+92 silly get     connection: 'keep-alive',
+92 silly get     'set-cookie': [ '__cfduid=d4f9ea60a87f16c2ab160918b6a038c7f1535776232; expires=Sun, 01-Sep-19 04:30:32 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+92 silly get     'cf-cache-status': 'HIT',
+92 silly get     'cache-control': 'max-age=300',
+92 silly get     'cf-ray': '4535008b0b8e9071-DME',
+92 silly get     etag: '"fdc4842f93dc35931f06fd2a9ed23684"',
+92 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+92 silly get     'last-modified': 'Fri, 03 Aug 2018 00:37:24 GMT',
+92 silly get     vary: 'accept-encoding, accept',
+92 silly get     server: 'cloudflare' } ]
+93 verbose etag https://registry.npmjs.org/source-map from cache
+94 verbose get saving source-map to /home/alina/.npm/registry.npmjs.org/source-map/.cache.json
+95 silly resolveWithNewModule source-map@0.6.1 checking installable status
+96 silly cache add args [ 'source-map@~0.6.1', null ]
+97 verbose cache add spec source-map@~0.6.1
+98 silly cache add parsed spec Result {
+98 silly cache add   raw: 'source-map@~0.6.1',
+98 silly cache add   scope: null,
+98 silly cache add   name: 'source-map',
+98 silly cache add   rawSpec: '~0.6.1',
+98 silly cache add   spec: '>=0.6.1 <0.7.0',
+98 silly cache add   type: 'range' }
+99 silly addNamed source-map@>=0.6.1 <0.7.0
+100 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for source-map
+101 silly addNameRange { name: 'source-map', range: '>=0.6.1 <0.7.0', hasData: false }
+102 silly mapToRegistry name source-map
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry uri https://registry.npmjs.org/source-map
+106 verbose addNameRange registry:https://registry.npmjs.org/source-map not in flight; fetching
+107 verbose get https://registry.npmjs.org/source-map not expired, no request
+108 silly addNameRange number 2 { name: 'source-map', range: '>=0.6.1 <0.7.0', hasData: true }
+109 silly addNameRange versions [ 'source-map',
+109 silly addNameRange   [ '0.0.0',
+109 silly addNameRange     '0.1.0',
+109 silly addNameRange     '0.1.1',
+109 silly addNameRange     '0.1.2',
+109 silly addNameRange     '0.1.3',
+109 silly addNameRange     '0.1.4',
+109 silly addNameRange     '0.1.5',
+109 silly addNameRange     '0.1.6',
+109 silly addNameRange     '0.1.7',
+109 silly addNameRange     '0.1.8',
+109 silly addNameRange     '0.1.9',
+109 silly addNameRange     '0.1.10',
+109 silly addNameRange     '0.1.11',
+109 silly addNameRange     '0.1.12',
+109 silly addNameRange     '0.1.13',
+109 silly addNameRange     '0.1.14',
+109 silly addNameRange     '0.1.15',
+109 silly addNameRange     '0.1.16',
+109 silly addNameRange     '0.1.17',
+109 silly addNameRange     '0.1.18',
+109 silly addNameRange     '0.1.19',
+109 silly addNameRange     '0.1.20',
+109 silly addNameRange     '0.1.21',
+109 silly addNameRange     '0.1.22',
+109 silly addNameRange     '0.1.23',
+109 silly addNameRange     '0.1.24',
+109 silly addNameRange     '0.1.25',
+109 silly addNameRange     '0.1.26',
+109 silly addNameRange     '0.1.27',
+109 silly addNameRange     '0.1.28',
+109 silly addNameRange     '0.1.29',
+109 silly addNameRange     '0.1.30',
+109 silly addNameRange     '0.1.31',
+109 silly addNameRange     '0.1.32',
+109 silly addNameRange     '0.1.33',
+109 silly addNameRange     '0.1.34',
+109 silly addNameRange     '0.1.35',
+109 silly addNameRange     '0.1.36',
+109 silly addNameRange     '0.1.37',
+109 silly addNameRange     '0.1.38',
+109 silly addNameRange     '0.1.39',
+109 silly addNameRange     '0.1.40',
+109 silly addNameRange     '0.1.41',
+109 silly addNameRange     '0.1.42',
+109 silly addNameRange     '0.1.43',
+109 silly addNameRange     '0.2.0',
+109 silly addNameRange     '0.3.0',
+109 silly addNameRange     '0.4.0',
+109 silly addNameRange     '0.4.1',
+109 silly addNameRange     '0.4.2',
+109 silly addNameRange     '0.4.3',
+109 silly addNameRange     '0.4.4',
+109 silly addNameRange     '0.5.0',
+109 silly addNameRange     '0.5.1',
+109 silly addNameRange     '0.5.2',
+109 silly addNameRange     '0.5.3',
+109 silly addNameRange     '0.5.4',
+109 silly addNameRange     '0.5.5',
+109 silly addNameRange     '0.5.6',
+109 silly addNameRange     '0.5.7',
+109 silly addNameRange     '0.6.0',
+109 silly addNameRange     '0.6.1',
+109 silly addNameRange     '0.7.0',
+109 silly addNameRange     '0.7.1',
+109 silly addNameRange     '0.7.2',
+109 silly addNameRange     '0.7.3' ] ]
+110 silly addNamed source-map@0.6.1
+111 verbose addNamed "0.6.1" is a plain semver version for source-map
+112 silly cache afterAdd source-map@0.6.1
+113 verbose afterAdd /home/alina/.npm/source-map/0.6.1/package/package.json not in flight; writing
+114 verbose afterAdd /home/alina/.npm/source-map/0.6.1/package/package.json written
+115 http 200 https://registry.npmjs.org/commander
+116 verbose headers { date: 'Sat, 01 Sep 2018 04:30:32 GMT',
+116 verbose headers   'content-type': 'application/json; charset=UTF-8',
+116 verbose headers   'transfer-encoding': 'chunked',
+116 verbose headers   connection: 'keep-alive',
+116 verbose headers   'set-cookie': [ '__cfduid=d5ea1f0ee0a7a7185a78d2d41a57a2c991535776232; expires=Sun, 01-Sep-19 04:30:32 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+116 verbose headers   'cf-cache-status': 'HIT',
+116 verbose headers   'cache-control': 'max-age=300',
+116 verbose headers   'cf-ray': '4535008bc9a99023-DME',
+116 verbose headers   etag: 'W/"12b2774519b15ef91e257464f0f122c9"',
+116 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+116 verbose headers   'last-modified': 'Tue, 07 Aug 2018 11:19:34 GMT',
+116 verbose headers   vary: 'accept-encoding, accept',
+116 verbose headers   server: 'cloudflare',
+116 verbose headers   'content-encoding': 'gzip' }
+117 silly get cb [ 200,
+117 silly get   { date: 'Sat, 01 Sep 2018 04:30:32 GMT',
+117 silly get     'content-type': 'application/json; charset=UTF-8',
+117 silly get     'transfer-encoding': 'chunked',
+117 silly get     connection: 'keep-alive',
+117 silly get     'set-cookie': [ '__cfduid=d5ea1f0ee0a7a7185a78d2d41a57a2c991535776232; expires=Sun, 01-Sep-19 04:30:32 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+117 silly get     'cf-cache-status': 'HIT',
+117 silly get     'cache-control': 'max-age=300',
+117 silly get     'cf-ray': '4535008bc9a99023-DME',
+117 silly get     etag: 'W/"12b2774519b15ef91e257464f0f122c9"',
+117 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+117 silly get     'last-modified': 'Tue, 07 Aug 2018 11:19:34 GMT',
+117 silly get     vary: 'accept-encoding, accept',
+117 silly get     server: 'cloudflare',
+117 silly get     'content-encoding': 'gzip' } ]
+118 verbose get saving commander to /home/alina/.npm/registry.npmjs.org/commander/.cache.json
+119 silly resolveWithNewModule commander@2.17.1 checking installable status
+120 silly cache add args [ 'commander@~2.17.1', null ]
+121 verbose cache add spec commander@~2.17.1
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'commander@~2.17.1',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'commander',
+122 silly cache add   rawSpec: '~2.17.1',
+122 silly cache add   spec: '>=2.17.1 <2.18.0',
+122 silly cache add   type: 'range' }
+123 silly addNamed commander@>=2.17.1 <2.18.0
+124 verbose addNamed ">=2.17.1 <2.18.0" is a valid semver range for commander
+125 silly addNameRange { name: 'commander', range: '>=2.17.1 <2.18.0', hasData: false }
+126 silly mapToRegistry name commander
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry uri https://registry.npmjs.org/commander
+130 verbose addNameRange registry:https://registry.npmjs.org/commander not in flight; fetching
+131 verbose get https://registry.npmjs.org/commander not expired, no request
+132 silly addNameRange number 2 { name: 'commander', range: '>=2.17.1 <2.18.0', hasData: true }
+133 silly addNameRange versions [ 'commander',
+133 silly addNameRange   [ '0.0.1',
+133 silly addNameRange     '0.0.3',
+133 silly addNameRange     '0.0.4',
+133 silly addNameRange     '0.0.5',
+133 silly addNameRange     '0.1.0',
+133 silly addNameRange     '0.2.0',
+133 silly addNameRange     '0.2.1',
+133 silly addNameRange     '0.3.0',
+133 silly addNameRange     '0.3.1',
+133 silly addNameRange     '0.3.2',
+133 silly addNameRange     '0.3.3',
+133 silly addNameRange     '0.4.0',
+133 silly addNameRange     '0.4.1',
+133 silly addNameRange     '0.4.2',
+133 silly addNameRange     '0.4.3',
+133 silly addNameRange     '0.5.0',
+133 silly addNameRange     '0.5.1',
+133 silly addNameRange     '0.6.0',
+133 silly addNameRange     '0.6.1',
+133 silly addNameRange     '0.5.2',
+133 silly addNameRange     '1.0.0',
+133 silly addNameRange     '1.0.1',
+133 silly addNameRange     '1.0.2',
+133 silly addNameRange     '1.0.3',
+133 silly addNameRange     '1.0.4',
+133 silly addNameRange     '1.0.5',
+133 silly addNameRange     '1.1.0',
+133 silly addNameRange     '1.1.1',
+133 silly addNameRange     '1.2.0',
+133 silly addNameRange     '1.3.0',
+133 silly addNameRange     '1.3.1',
+133 silly addNameRange     '1.3.2',
+133 silly addNameRange     '2.0.0',
+133 silly addNameRange     '2.1.0',
+133 silly addNameRange     '2.2.0',
+133 silly addNameRange     '2.3.0',
+133 silly addNameRange     '2.4.0',
+133 silly addNameRange     '2.5.0',
+133 silly addNameRange     '2.5.1',
+133 silly addNameRange     '2.6.0',
+133 silly addNameRange     '2.7.0',
+133 silly addNameRange     '2.7.1',
+133 silly addNameRange     '2.8.0',
+133 silly addNameRange     '2.8.1',
+133 silly addNameRange     '2.9.0',
+133 silly addNameRange     '2.10.0',
+133 silly addNameRange     '2.11.0',
+133 silly addNameRange     '2.12.0',
+133 silly addNameRange     '2.12.1',
+133 silly addNameRange     '2.12.2',
+133 silly addNameRange     '2.13.0',
+133 silly addNameRange     '2.14.0',
+133 silly addNameRange     '2.14.1',
+133 silly addNameRange     '2.15.0',
+133 silly addNameRange     '2.15.1',
+133 silly addNameRange     '2.16.0',
+133 silly addNameRange     '2.17.0',
+133 silly addNameRange     '2.17.1' ] ]
+134 silly addNamed commander@2.17.1
+135 verbose addNamed "2.17.1" is a plain semver version for commander
+136 silly mapToRegistry name commander
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry uri https://registry.npmjs.org/commander
+140 verbose addRemoteTarball https://registry.npmjs.org/commander/-/commander-2.17.1.tgz not in flight; adding
+141 verbose addRemoteTarball [ 'https://registry.npmjs.org/commander/-/commander-2.17.1.tgz',
+141 verbose addRemoteTarball   'bd77ab7de6de94205ceacc72f1716d29f20a77bf' ]
+142 info retry fetch attempt 1 at 7:30:32
+143 info attempt registry request try #1 at 7:30:32
+144 http fetch GET https://registry.npmjs.org/commander/-/commander-2.17.1.tgz
+145 http fetch 200 https://registry.npmjs.org/commander/-/commander-2.17.1.tgz
+146 silly fetchAndShaCheck shasum bd77ab7de6de94205ceacc72f1716d29f20a77bf
+147 verbose addTmpTarball /tmp/npm-27397-e5a49996/registry.npmjs.org/commander/-/commander-2.17.1.tgz not in flight; adding
+148 verbose addTmpTarball already have metadata; skipping unpack for commander@2.17.1
+149 silly cache afterAdd commander@2.17.1
+150 verbose afterAdd /home/alina/.npm/commander/2.17.1/package/package.json not in flight; writing
+151 verbose afterAdd /home/alina/.npm/commander/2.17.1/package/package.json written
+152 silly loadAllDepsIntoIdealTree Finishing
+153 silly idealTree:prePrune lib
+153 silly idealTree:prePrune └─┬ uglify-js@3.4.9
+153 silly idealTree:prePrune   ├── commander@2.17.1
+153 silly idealTree:prePrune   └── source-map@0.6.1
+154 silly loadIdealTree Finishing
+155 silly currentTree lib
+156 silly idealTree lib
+156 silly idealTree └─┬ uglify-js@3.4.9
+156 silly idealTree   ├── commander@2.17.1
+156 silly idealTree   └── source-map@0.6.1
+157 silly generateActionsToTake Starting
+158 silly install generateActionsToTake
+159 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+160 silly rollbackFailedOptional Starting
+161 silly rollbackFailedOptional Finishing
+162 silly runTopLevelLifecycles Starting
+163 silly runTopLevelLifecycles Finishing
+164 silly install printInstalled
+165 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+165 verbose stack     at Error (native)
+166 verbose cwd /home/alina/Beetroot/Homework/JavaScript/foo
+167 error Linux 4.13.0-46-generic
+168 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "uglify-js"
+169 error node v6.11.4
+170 error npm  v3.5.2
+171 error path /usr/local/lib/node_modules
+172 error code EACCES
+173 error errno -13
+174 error syscall access
+175 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+175 error     at Error (native)
+175 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+175 error     at Error (native)
+175 error   errno: -13,
+175 error   code: 'EACCES',
+175 error   syscall: 'access',
+175 error   path: '/usr/local/lib/node_modules' }
+176 error Please try running this command again as root/Administrator.
+177 verbose exit [ -13, true ]

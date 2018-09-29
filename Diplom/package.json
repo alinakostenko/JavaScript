@@ -1,0 +1,28 @@
+{
+  "name": "diplom",
+  "version": "1.0.0",
+  "description": "Diplom",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinakostenko/Diplom.git"
+  },
+  "keywords": [
+    "diplom",
+    "pets",
+    "shelter"
+  ],
+  "author": "A. Kostenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alinakostenko/Diplom/issues"
+  },
+  "homepage": "https://github.com/alinakostenko/Diplom#readme"
+}
